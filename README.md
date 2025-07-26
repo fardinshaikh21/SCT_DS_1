@@ -1,45 +1,54 @@
-# 🚢 Titanic Dataset - Exploratory Data Analysis (EDA)
+# 📊 Task 1 - Exploratory Data Analysis (EDA) on Population Data
 
-This project performs a detailed Exploratory Data Analysis (EDA) on a Titanic dataset or similar population-based dataset. The primary goal is to understand the structure and distribution of demographic features such as **age**, **gender**, and **survival rate** (if applicable) using Python data visualization libraries.
-
----
-
-## 📁 Project Structure
-
-- `Task1.ipynb` – Jupyter notebook containing all data analysis, visualization code, and commentary.
-- `standard_populations_19_age_groups.csv` – Dataset used (should be placed in the same directory).
+This project focuses on performing exploratory data analysis (EDA) using Python on a population dataset, possibly similar to the Titanic dataset structure. It includes insightful visualizations like bar charts and histograms to understand the **distribution of age groups** and **gender** in the dataset.
 
 ---
 
-## 📊 Visualizations Overview
+## 🎯 Objective
 
-The notebook uses a combination of **bar charts** and **histograms** to visualize:
-
-- ✅ **Gender Distribution** – Understand male-to-female ratio
-- ✅ **Age Distribution** – Frequency of passengers across age groups
-- ✅ **Other Categorical Variables** – If included, such as survival status or class
-
----
-
-## 📌 Features of This Notebook
-
-- Data import and overview using `pandas`
-- Handling missing values (if applicable)
-- Descriptive statistics summary
-- Clean visual plots using `matplotlib` and `seaborn`
-- Insightful commentary alongside each visualization
+The objective of this project is to:
+- Understand the distribution of demographic features
+- Identify patterns in age and gender
+- Prepare the dataset for future predictive modeling or statistical analysis
 
 ---
 
-## 🛠 Technologies & Libraries Used
+## 📂 Files
 
-- Python 3.x
-- pandas
-- matplotlib
-- seaborn
-- Jupyter Notebook
+- `Task1 (1).ipynb` — Jupyter notebook that performs the analysis
+- `standard_populations_19_age_groups.csv` — Dataset used for the visualizations
 
-To install required packages:
+---
+
+## 🧾 Dataset Description
+
+The dataset includes standardized population figures grouped by age. It typically contains the following columns:
+
+- `Age_Group`: Age range of individuals (e.g., 0–4, 5–9, ..., 85+)
+- `Gender`: Male or Female (if available)
+- `Population`: Count of individuals in each group
+
+---
+
+## 📊 Visualizations & EDA Tasks
+
+The following analyses are performed in the notebook:
+
+- ✅ **Bar Chart** showing the distribution of population across gender  
+- ✅ **Histogram** for understanding the distribution of age groups  
+- ✅ Checking for missing data and data types  
+- ✅ Shape and sample preview of the dataset using `head()`, `shape`, and `info()`  
+- ✅ Additional categorical analysis using Seaborn's `countplot` or `barplot`  
+
+---
+
+## 📦 Libraries Used
+
+- `pandas` – for data manipulation
+- `matplotlib.pyplot` – for visual plotting
+- `seaborn` – for aesthetic statistical plots
+
+### Installation:
 
 ```bash
 pip install pandas
