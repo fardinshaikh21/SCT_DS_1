@@ -1,4 +1,3 @@
-
 # 📊 Task 1 - Exploratory Data Analysis (EDA) on Population Data
 
 This project focuses on performing exploratory data analysis (EDA) using Python on a population dataset, possibly similar to the Titanic dataset structure. It includes insightful visualizations like bar charts and histograms to understand the **distribution of age groups** and **gender** in the dataset.
